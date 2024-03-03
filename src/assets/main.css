@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --background: #e8e8e8;
+  --primary: #5CADEA;
+  --surface-variant: #EDF1F8;
+  --shadow: #000;
+  --blue-text: #005FAF;
+}
+
+body {
+  background: #E8E8E8;
+  font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1440 - 320)));
+}
